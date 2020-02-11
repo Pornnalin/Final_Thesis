@@ -47,6 +47,7 @@ public class TrasitionScene : MonoBehaviour
     IEnumerator WaitLoadCurrentScene()
     {
         //endGameTxt.enabled = true;
+       
         anim.SetTrigger("End");
         LoadSceneCurrent();
         yield return new WaitForSeconds(1.5f);
